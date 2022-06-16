@@ -1,0 +1,12 @@
+Dataset ID: 110
+
+Small Dataset Result: 110	
+  Forward Selection  = { 8, 10 } 	Accuracy: 96%
+	Backward Selection = { 2, 3, 6, 7, 8, 9, 10}	Accuracy: 89%
+
+Large Dataset Result: 110	
+  Forward Selection  = { 23, 27}	Accuracy:96.9%
+	Backward Selection = {1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 36, 37, 38, 39, 40 } Accuracy: 77%
+
+NOTE: since both Algorithms stop when accuracy drops, there is a lot more features in backward selection than Forward Selection.
+
